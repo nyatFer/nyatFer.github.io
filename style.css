@@ -1,34 +1,72 @@
-/* A deliberately small starting point.
-   It exists to prove one thing: this file is loading.
-   If you can see spacing and a readable line length, the path in index.html works.
-
-   Delete all of it whenever you want. */
+/* One bold move: the oversized name. Everything else stays quiet.
+   Colors live in the variables below, so changing the accent is one line. */
 
 :root {
-  /* Makes the page follow the reader's light or dark mode setting, for free. */
   color-scheme: light dark;
+
+  --bg: #ffffff;
+  --text: #16181d;
+  --muted: #4b5160;
+  --accent: #c2410c;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111317;
+    --text: #eceef2;
+    --muted: #a9afbc;
+    --accent: #fb923c;
+  }
 }
 
 body {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
 
-  /* 65ch caps the line at about 65 characters. Long lines are genuinely hard
-     to read, and this single rule does more for legibility than anything else
-     in this file. */
+  /* Caps the line at about 65 characters, the biggest single win for legibility. */
   max-width: 65ch;
 
   margin: 0 auto;
-  padding: 4rem 1.5rem;
+  padding: 96px 24px;
   line-height: 1.6;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
 }
 
 h1 {
-  font-size: 3rem;
-  line-height: 1.1;
-  margin-bottom: 1.5rem;
+  /* Scales with the window: 3.5rem on a phone, up to 7rem on a wide screen. */
+  font-size: clamp(3.5rem, 14vw, 7rem);
+  font-weight: 800;
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+
+  /* min-content puts each word of the name on its own line. */
+  width: min-content;
+  margin: 0 0 32px;
+}
+
+/* The accent bar under the name. */
+h1::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 8px;
+  margin-top: 24px;
+  background: var(--accent);
 }
 
 p {
-  margin-bottom: 1.5rem;
+  margin: 0 0 24px;
+  color: var(--muted);
+}
+
+a {
+  color: var(--accent);
+  text-underline-offset: 4px;
+}
+
+a:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 4px;
 }
