@@ -70,14 +70,16 @@ h2 {
   margin: 48px 0 16px;
 }
 
-.courses {
+.courses,
+.hobbies {
   list-style: none;
   padding: 0;
   margin: 0;
   color: var(--muted);
 }
 
-.courses li {
+.courses li,
+.hobbies li {
   margin-bottom: 8px;
 }
 
