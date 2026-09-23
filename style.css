@@ -61,6 +61,26 @@ p {
   color: var(--muted);
 }
 
+/* Section headings stay small so the name remains the only bold move. */
+h2 {
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 48px 0 16px;
+}
+
+.courses {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: var(--muted);
+}
+
+.courses li {
+  margin-bottom: 8px;
+}
+
 a {
   color: var(--accent);
   text-underline-offset: 4px;
