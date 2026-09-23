@@ -34,8 +34,8 @@ body {
 }
 
 h1 {
-  /* Scales with the window: 3.5rem on a phone, up to 7rem on a wide screen. */
-  font-size: clamp(3.5rem, 14vw, 7rem);
+  /* Scales with the window: 2.75rem on a phone, up to 4.5rem on a wide screen. */
+  font-size: clamp(2.75rem, 10vw, 4.5rem);
   font-weight: 800;
   line-height: 0.95;
   letter-spacing: -0.03em;
@@ -68,6 +68,12 @@ h2 {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   margin: 48px 0 16px;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin: 0 0 8px;
 }
 
 .courses,
