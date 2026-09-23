@@ -14,7 +14,7 @@ Delete these instructions when you are done, or leave them. It does not matter.
 What you wanted at the start, and what is actually live now.
 Name one thing you dropped or added along the way, and why.
 
-*Your answer here.*
+I wanted a personal page that introduces me and says the things I'm currently up to. What is actually live now is my name, a short introduction, my current projects/courses/hobbies, and my contact information. Something that I added along the way was my github link and university email because Claude suggested it and I thought it was a good idea.
 
 ---
 
@@ -28,7 +28,7 @@ Say which you picked, what the alternative was, and what you gave up by not taki
 
 "There was no alternative" is not an answer. Find the fork.
 
-*Your answer here.*
+So I wanted a robots.txt file. I could choose between blocking specific bots/scrapers such as search indexers but I decided on blocking all bots. I gave up search visibility. Now, my site shouldn't show up in search engines or AI training. That is the behavior I wanted and I hope bots respect my robots.txt file.
 
 ---
 
@@ -42,7 +42,7 @@ If it genuinely never happened, say so plainly, and then say what you would have
 check in order to notice. Being honest here costs you far less than a story you cannot
 defend when you record your video.
 
-*Your answer here.*
+I told it to put one of my projects in the site but it put it in past tense instead of present tense. When I noticed that in the localhost preview, I asked it how it thinks I should show that it is a current project. It gave me two choices to pick from. I decided on renaming the section to "Current projects" and changing the wording to present tense.
 
 ---
 
@@ -55,7 +55,8 @@ A check that could not have failed is not a check.
 
 Link to your `verification/` folder.
 
-*Your answer here.*
+[verification/](verification/)
+I ran a check to see if the fetch Claude got matches to a screenshot I took. The check was meant to see if index.html is at the proper place. The check passed because the screenshot and fetch matched. There would've been a page error or no content showing up if it failed.
 
 ---
 
@@ -66,4 +67,4 @@ fully understand.
 
 What would you do next, and how would you find out?
 
-*Your answer here.*
+Something that isn't finished is my projects section. In the future, I'll add my past projects because right now it only shows my current projects. I would find out by making a list of my past projects and seeing what is not already on the site.
