@@ -1,0 +1,81 @@
+$ curl -i https://nyatfer.github.io/
+# fetched 2026-09-22 19:36:43 MDT
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 1443
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Wed, 23 Sep 2026 01:07:27 GMT
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31556952
+ETag: "6ab3264f-5a3"
+expires: Wed, 23 Sep 2026 01:46:43 GMT
+Cache-Control: max-age=600
+x-proxy-cache: MISS
+X-GitHub-Request-Id: BB0A:34CEB:58F774:615995:6AB32D2B
+x-github-edge-region: iad
+Accept-Ranges: bytes
+Age: 0
+Date: Wed, 23 Sep 2026 01:36:44 GMT
+Via: 1.1 varnish
+X-Served-By: cache-den-kden1300064-DEN
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1790127404.917035,VS0,VE85
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 75aeea16f2f7b3806adceac8d8864875939b0806
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fernando Agudo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Fernando Agudo</h1>
+
+  <p>
+    I am a junior at Colorado School of Mines, working toward a BS in Computer
+    Science with a focus area in Data Science.
+  </p>
+
+  <h2>Current projects</h2>
+  <div class="project">
+    <h3>Lunar Outpost Field Session</h3>
+    <p>
+      Adapting OmniVLA, a vision-language-action (VLA) model, so it works for
+      navigation on the lunar surface.
+    </p>
+  </div>
+
+  <h2>Courses this semester</h2>
+  <ul class="courses">
+    <li>Advanced Software Engineering</li>
+    <li>Machine Learning</li>
+    <li>Coding with AI Agents</li>
+    <li>Computer Organization</li>
+    <li>Mathematical Statistics</li>
+  </ul>
+
+  <h2>Hobbies</h2>
+  <ul class="hobbies">
+    <li>Skiing</li>
+    <li>Self-hosting</li>
+    <li>Music</li>
+    <li>Video games</li>
+  </ul>
+
+  <p class="links">
+    <a href="https://github.com/nyatFer">GitHub</a>
+    <a href="mailto:fernando_agudopalacios@mines.edu">fernando_agudopalacios@mines.edu</a>
+  </p>
+
+</body>
+</html>
